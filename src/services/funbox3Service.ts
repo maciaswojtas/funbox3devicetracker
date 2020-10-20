@@ -1,5 +1,4 @@
 import * as restclient from 'node-rest-client-promise';
-import * as request from 'request';
 import ReportedDevice from '../dto/reportedDevice'
 export default class FunboxService {
     private client: any;
