@@ -37,3 +37,9 @@ device_list:
   - mac : "22:33:44:55:66:77"
     name : "laptop"
 ```
+
+# Docker
+To run with Docker execute as below. Currently image is build only for arm (raspberry pi 3)
+``` 
+docker run -v <path_to_your_config_file>/config.yml:/usr/src/app/config.yml  maciaswojtas/funbox3devicetracer
+``` 
