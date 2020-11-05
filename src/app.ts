@@ -9,7 +9,7 @@ let service = new FunboxService(
     config.funbox3.host,
     config.funbox3.user,
     config.funbox3.password);
-let comparator = new ComparatorService(config['device_list']);
+let comparator =  new ComparatorService(config['device_list'], config.iteration_to_false);
 monitorDevices();
 
 function timeout(ms) {
