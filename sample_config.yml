@@ -1,0 +1,21 @@
+
+  device_list: 
+    - 
+      mac: "11:22:4a:b3:2d:b1"
+      name: anna
+    - 
+      mac: "11:22:a1:90:90:d9"
+      name: bob
+  funbox3: 
+    host: "http://192.168.0.1"
+    password: change-me
+    user: admin
+  interval: 10
+  mqtt: 
+    host: "mqtt://192.168.0.81:1883"
+    password: change-me
+    topic: /device/tracker/
+    user: admin
+
+  iteration_to_false : 4
+  
